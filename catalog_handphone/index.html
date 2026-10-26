@@ -1,0 +1,275 @@
+
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Handphone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <nav class="navbar">
+            <h2 class="logo">Phone<span>Store</span></h2>
+            <a href="#katalog" class="nav-link">Lihat Katalog</a>
+        </nav>
+
+        <div class="hero-content">
+            <p class="subtitle">WELCOME TO PHONE STORE</p>
+            <h1>Temukan Handphone<br>Favoritmu</h1>
+            <p>
+                Koleksi handphone iPhone, Realme, dan Vivo
+                dengan desain menarik.
+            </p>
+            <a href="#katalog" class="btn">Jelajahi Produk</a>
+        </div>
+    </header>
+
+    <main id="katalog" class="container">
+        <div class="section-heading">
+            <p class="subtitle">OUR COLLECTION</p>
+            <h2>Katalog Handphone</h2>
+            <p>Pilih merek dan temukan model favoritmu.</p>
+        </div>
+
+        <div class="filter-buttons">
+            <button class="filter active" data-brand="semua">
+                Semua
+            </button>
+            <button class="filter" data-brand="iphone">
+                iPhone
+            </button>
+            <button class="filter" data-brand="realme">
+                Realme
+            </button>
+            <button class="filter" data-brand="vivo">
+                Vivo
+            </button>
+        </div>
+
+        <!-- TATA LETAK 1: IPHONE - GRID -->
+        <section class="brand-section" id="iphone">
+            <div class="brand-heading">
+                <h2>01. Apple iPhone</h2>
+                <p>Tata letak grid tiga kolom.</p>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card" data-brand="iphone">
+                    <img
+                        src="img/iphone%201.jpg"
+                        alt="iPhone 15"
+                    >
+                    <div class="product-info">
+                        <span class="badge">iPhone</span>
+                        <h3>iPhone 15</h3>
+                        <p>iPhone dengan pilihan warna pink.</p>
+                        <h4>Rp2.500.000</h4>
+                        <button class="detail-btn"
+                            data-name="iPhone 15"
+                            data-price="Rp2.500.000"
+                            data-description="iPhone berwarna pink dengan desain elegan.">
+                            Lihat Detail
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-brand="iphone">
+                    <img
+                        src="img/iphone%202.jpg"
+                        alt="iPhone 16"
+                    >
+                    <div class="product-info">
+                        <span class="badge">iPhone</span>
+                        <h3>iPhone 16</h3>
+                        <p>iPhone dengan pilihan warna biru.</p>
+                        <h4>Rp3.500.000</h4>
+                        <button class="detail-btn"
+                            data-name="iPhone 16"
+                            data-price="Rp3.500.000"
+                            data-description="iPhone berwarna biru dengan tampilan modern.">
+                            Lihat Detail
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-brand="iphone">
+                    <img
+                        src="img/iphone%203.jpg"
+                        alt="iPhone 18 Pro"
+                    >
+                    <div class="product-info">
+                        <span class="badge">iPhone</span>
+                        <h3>iPhone 18 Pro</h3>
+                        <p>iPhone dengan pilihan warna merah tua.</p>
+                        <h4>Rp4.500.000</h4>
+                        <button class="detail-btn"
+                            data-name="iPhone 18 Pro"
+                            data-price="Rp4.500.000"
+                            data-description="iPhone berwarna merah tua dengan desain premium.">
+                            Lihat Detail
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- TATA LETAK 2: REALME - HORIZONTAL -->
+        <section class="brand-section" id="realme">
+            <div class="brand-heading">
+                <h2>02. Realme</h2>
+                <p>Tata letak grid tiga kolom seperti iPhone.</p>
+            </div>
+
+            <div class="product-horizontal">
+                <article class="horizontal-card" data-brand="realme">
+                    <img
+                        src="img/realme%201.jpg"
+                        alt="Realme 16 Pro"
+                    >
+                    <div class="product-info">
+                        <span class="badge">Realme</span>
+                        <h3>Realme 16 Pro</h3>
+                        <p>Realme dengan desain putih yang elegan.</p>
+                        <h4>Rp1.800.000</h4>
+                        <button class="detail-btn"
+                            data-name="Realme 16 Pro"
+                            data-price="Rp1.800.000"
+                            data-description="Realme berwarna putih untuk penggunaan sehari-hari.">
+                            Lihat Detail
+                        </button>
+                    </div>
+                </article>
+
+                <article class="horizontal-card" data-brand="realme">
+                    <img
+                        src="img/realme%202.jpg"
+                        alt="Realme C85 Pro"
+                    >
+                    <div class="product-info">
+                        <span class="badge">Realme</span>
+                        <h3>Realme C85 Pro</h3>
+                        <p>Realme 16 Pro+ 5G dengan warna pink.</p>
+                        <h4>Rp2.200.000</h4>
+                        <button class="detail-btn"
+                            data-name="Realme C85 Pro"
+                            data-price="Rp2.200.000"
+                            data-description="Realme 16 Pro+ 5G berwarna pink.">
+                            Lihat Detail
+                        </button>
+                    </div>
+                </article>
+
+                <article class="horizontal-card" data-brand="realme">
+                    <img
+                        src="img/realme%203.png"
+                        alt="Realme C100X"
+                    >
+                    <div class="product-info">
+                        <span class="badge">Realme</span>
+                        <h3>Realme C100X</h3>
+                        <p>Realme dengan pilihan warna ungu.</p>
+                        <h4>Rp2.900.000</h4>
+                        <button class="detail-btn"
+                            data-name="Realme C100X"
+                            data-price="Rp2.900.000"
+                            data-description="Realme berwarna ungu dengan desain modern.">
+                            Lihat Detail
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- TATA LETAK 3: VIVO - VERTIKAL -->
+        <section class="brand-section" id="vivo">
+            <div class="brand-heading">
+                <h2>03. Vivo</h2>
+                <p>Tata letak grid tiga kolom seperti iPhone.</p>
+            </div>
+
+            <div class="product-list">
+                <article class="list-card" data-brand="vivo">
+                    <img
+                        src="img/vivo%201.jpg"
+                        alt="Vivo V60 Lite"
+                    >
+                    <div class="product-info">
+                        <span class="badge">Vivo</span>
+                        <h3>Vivo V60 Lite</h3>
+                        <p>Vivo dengan pilihan warna ungu muda.</p>
+                        <h4>Rp1.700.000</h4>
+                        <button class="detail-btn"
+                            data-name="Vivo V60 Lite"
+                            data-price="Rp1.700.000"
+                            data-description="Vivo berwarna ungu muda dengan desain stylish.">
+                            Lihat Detail
+                        </button>
+                    </div>
+                </article>
+
+                <article class="list-card" data-brand="vivo">
+                    <img
+                        src="img/vivo%202.jpg"
+                        alt="Vivo Y31D Pro"
+                    >
+                    <div class="product-info">
+                        <span class="badge">Vivo</span>
+                        <h3>Vivo Y31D Pro</h3>
+                        <p>Vivo dengan pilihan warna putih.</p>
+                        <h4>Rp2.400.000</h4>
+                        <button class="detail-btn"
+                            data-name="Vivo Y31D Pro"
+                            data-price="Rp2.400.000"
+                            data-description="Vivo berwarna putih untuk berbagai aktivitas.">
+                            Lihat Detail
+                        </button>
+                    </div>
+                </article>
+
+                <article class="list-card" data-brand="vivo">
+                    <img
+                        src="img/vivo%203.png"
+                        alt="Vivo Y21D"
+                    >
+                    <div class="product-info">
+                        <span class="badge">Vivo</span>
+                        <h3>Vivo Y21D</h3>
+                        <p>Vivo dengan pilihan warna biru.</p>
+                        <h4>Rp3.200.000</h4>
+                        <button class="detail-btn"
+                            data-name="Vivo Y21D"
+                            data-price="Rp3.200.000"
+                            data-description="Vivo berwarna biru dengan tampilan modern.">
+                            Lihat Detail
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>PhoneStore</h2>
+        <p>© 2026 PhoneStore | Katalog Handphone</p>
+    </footer>
+
+    <!-- MODAL DETAIL PRODUK -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeModal"
+                aria-label="Tutup detail">&times;</button>
+            <p class="subtitle">DETAIL PRODUK</p>
+            <h2 id="modalName"></h2>
+            <h3 id="modalPrice"></h3>
+            <p id="modalDescription"></p>
+            <button class="btn" id="modalOk">Kembali ke Katalog</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
